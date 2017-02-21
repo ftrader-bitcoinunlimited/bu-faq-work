@@ -10,7 +10,7 @@
 
 ### Q[ab02d5]: Do miners have full control of transaction selection?
 
-### Q[a79667]: Are fees of $1 fine?
+### Q[94f2fe]: What level of transaction fees is fine?
 
 ### Q[e7f595]: How long away is Bitcoin mass adoption?
 
