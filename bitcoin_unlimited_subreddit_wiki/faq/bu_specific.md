@@ -130,12 +130,46 @@
 
 ## Contributing
 
+### Q[ffc985]: How do I setup a Bitcoin Unlimited node?
+
+You will need to download the appropriate Bitcoin Unlimited client software for your operating system from https://www.bitcoinunlimited.info/download and install it.
+
+If you are already running another client, please refer to the question about [switching](https://www.reddit.com/r/bitcoin_unlimited/wiki/faq/bu_specific#wiki_q.5Bde12a6.5D.3A_how_do_i_switch_from_my_existing_client_to_bitcoin_unlimited.3F).
+
+If you are running on certain UNIX-like operating systems (e.g. Ubuntu), you may be able to download Bitcoin Unlimited using your package manager.
+
+If you want to build your client from source code, please refer to the `doc/build-*` files in the source distribution.
+
+### Q[de12a6]: How do I switch from my existing client to Bitcoin Unlimited?
+
+This depends on your platform.
+
+As a general rule, back up your valuable data (wallets, synced blockchain), then remove the existing client and install Bitcoin Unlimited.
+
 ### Q[47e4d8]: How can I get help with my Bitcoin Unlimited node?
+
+There are various channels available for obtaining help and advice.
+
+- open an Issue ticket on the [BU GitHub repo](https://github.com/BitcoinUnlimited/BitcoinUnlimited/issues)
+
+- ask on /r/bitcoin_unlimited
+
+- ask on https://bitco.in/forum or other forums (e.g. https://forum.bitcoin.com)
 
 ### Q[69ca88]: How do I use Bitcoin Unlimited with Raspberry Pi?
 
+There is a good tutorial for Raspberry Pi 3 here:
+
+https://forum.bitcoin.com/full-clients-bitcoin-ultimate/tutorial-how-to-run-bitcoin-unlimited-node-on-a-raspberry-pi-3-t16682.html
+
+It can also run it on a Raspberry Pi 2 ([thread with some good infos](https://forum.bitcoin.com/bitcoin-discussion/check-out-my-85-raspberry-pi-bitcoin-full-node-t5542.html)), but not on the first generation Pi's.
+
 ### Q[8bb993]: Where is the Bitcoin Unlimited Testnet?
+
+Bitcoin Unlimited has a dedicated test network which can be accessed using the `-chain_nol` option.
+
+Bitcoin Unlimited can also use testnet3 (`-testnet`).
 
 ### Q[d0a6c2]: What is Nolnet?
 
-### Q[ffc985]: How do I setup a Bitcoin Unlimited node?
+Nolnet is the no-limit test network, a special test network used by Bitcoin Unlimited for testing bigger blocks and related features.
